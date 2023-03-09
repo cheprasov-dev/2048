@@ -1,0 +1,35 @@
+{
+  "name": "2048-ts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "rm -Rf build && tsc && vite build && mv dist build",
+    "preview": "vite preview",
+    "deploy": "vk-miniapps-deploy"
+  },
+  "dependencies": {
+    "@types/hammerjs": "2.0.41",
+    "@types/uuid": "9.0.1",
+    "@vkontakte/vk-bridge": "2.7.2",
+    "hammerjs": "2.0.8",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "uuid": "9.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.27",
+    "@types/react-dom": "18.0.10",
+    "@typescript-eslint/eslint-plugin": "5.54.1",
+    "@typescript-eslint/parser": "5.54.1",
+    "@vitejs/plugin-react": "3.1.0",
+    "@vkontakte/vk-miniapps-deploy": "0.0.26",
+    "eslint": "8.35.0",
+    "eslint-config-xo": "0.43.1",
+    "eslint-config-xo-typescript": "0.56.0",
+    "eslint-plugin-react": "7.32.2",
+    "typescript": "4.9.5",
+    "vite": "4.1.0"
+  }
+}
